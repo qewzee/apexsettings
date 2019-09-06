@@ -38,7 +38,7 @@ VIDEOCONFIG:
  "setting.csm_cascade_res"  "0"
  "setting.fadeDistScale"  "1.000000"
  "setting.dvs_supersample_enable"  "0"
- "setting.gamma"  "1.000000"
+ "setting.gamma"  "0.839286"
  "setting.configversion"  "7"
 }
 
