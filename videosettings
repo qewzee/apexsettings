@@ -228,7 +228,7 @@ cl_ragdoll_maxcount "0"
 cl_particle_max_count "0"
 cl_particle_limiter_max_particle_count "10"
 cl_particle_limiter_max_system_count "10"
-cl_forcepreload "1"
+cl_forcepreload "0"
 cl_detailfade "0"							//Distance across which detail props fade in
 cl_detaildist "0"							//Distance at which detail props are no longer visible
 cl_drawshadowtexture "0"
@@ -351,4 +351,4 @@ vsm_ignore_face_planes "1"
 vphysics_threadmode "1"
 
 ORIGIN ADVANCED COMMANDS:
-+cl_showfps 4 +exec autoexec -high -fullscreen -forcenovsync -freq 144
++cl_showfps 4 +exec autoexec -fullscreen -forcenovsync -freq 144
