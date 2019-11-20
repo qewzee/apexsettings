@@ -42,4 +42,4 @@
 }
 
 ORIGIN ADVANCED COMMANDS:
-+cl_showfps 4 +exec autoexec -high -fullscreen -forcenovsync -freq 144
++cl_showfps 4 -freq 144
