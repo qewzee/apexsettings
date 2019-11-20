@@ -352,4 +352,4 @@ vsm_ignore_face_planes "1"
 vphysics_threadmode "1"
 
 ORIGIN ADVANCED COMMANDS:
-+cl_showfps 4 +exec autoexec -high -forcenovsync -freq 144
++cl_showfps 4 +exec autoexec -high -forcenovsync -fullscreen -freq 144
