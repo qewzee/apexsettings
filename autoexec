@@ -56,5 +56,5 @@ miles_channels 2
 cl_footstep_event_max_dist 5000
 rope_wind_dist 0
 
-ORIGIN ADVANCED COMMANDS:
-+fps_max 0 +cl_showfps 4 +exec autoexec -high -fullscreen -forcenovsync -freq 144 -high
+ORIGIN LAUNCH OPTIONS:
++fps_max 190 +cl_showfps 4 +exec autoexec -high -fullscreen -forcenovsync -freq 144 -high
