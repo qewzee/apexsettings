@@ -58,4 +58,4 @@ cl_footstep_event_max_dist 5000
 rope_wind_dist 0
 
 ORIGIN ADVANCED COMMANDS:
-+exec autoexec -high -fullscreen -forcenovsync -freq 144 -high
++cl_showfps 4 +exec autoexec -high -fullscreen -forcenovsync -freq 144 -high
