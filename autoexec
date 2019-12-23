@@ -57,4 +57,4 @@ cl_footstep_event_max_dist 5000
 rope_wind_dist 0
 
 ORIGIN LAUNCH OPTIONS:
-+fps_max 190 +cl_showfps 4 +exec autoexec -high -fullscreen -forcenovsync -freq 144 -high
++fps_max 190 +cl_showfps 4 +exec autoexec -high -fullscreen -forcenovsync -freq 144
