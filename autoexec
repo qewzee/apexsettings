@@ -41,6 +41,6 @@ Videoconfig.txt:
 }
 
 ORIGIN LAUNCH OPTIONS:
-+fps_max 0 -high -fullscreen -forcenovsync -freq 144
++fps_max 0
 
 I use Rivatuner to cap FPS at 160 FPS.
