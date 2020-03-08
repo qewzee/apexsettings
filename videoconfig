@@ -23,8 +23,8 @@ Videoconfig.txt:
 	"setting.dvs_enable"		"0"
 	"setting.dvs_gpuframetime_min"		"15000"
 	"setting.dvs_gpuframetime_max"		"16500"
-	"setting.defaultres"		"1920"
-	"setting.defaultresheight"		"1080"
+	"setting.defaultres"		"1680"
+	"setting.defaultresheight"		"1050"
 	"setting.fullscreen"		"1"
 	"setting.nowindowborder"		"0"
 	"setting.volumetric_lighting"		"0"
@@ -36,11 +36,15 @@ Videoconfig.txt:
 	"setting.csm_cascade_res"		"0"
 	"setting.fadeDistScale"		"1.000000"
 	"setting.dvs_supersample_enable"		"0"
-	"setting.gamma"		"1.294643"
+	"setting.gamma"		"1.155357"
 	"setting.configversion"		"7"
 }
 
+autoexec:
+mat_letterbox_aspect_goal 0
+mat_letterbox_aspect_threshold 0
+
 ORIGIN LAUNCH OPTIONS:
-+fps_max 160 -dev
++fps_max 160 -dev +exec autoexec
 
 I use Rivatuner to cap FPS at 160 FPS.
