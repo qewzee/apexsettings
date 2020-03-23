@@ -46,6 +46,6 @@ mat_letterbox_aspect_goal 0
 mat_letterbox_aspect_threshold 0
 
 ORIGIN LAUNCH OPTIONS:
-+fps_max 190 -dev +exec autoexec
++fps_max 240 +cl_showfps 4 -dev +exec autoexec
 
-I use Rivatuner to cap FPS at 190 FPS.
+I use Rivatuner to cap FPS at 240 FPS.
