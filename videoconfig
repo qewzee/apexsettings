@@ -8,7 +8,7 @@ Videoconfig.txt:
 	"setting.cl_ragdoll_self_collision"		"0"
 	"setting.mat_forceaniso"		"0"
 	"setting.mat_mip_linear"		"0"
-	"setting.stream_memory"		"0"
+	"setting.stream_memory"		"160000"
 	"setting.mat_picmip"		"4"
 	"setting.particle_cpu_level"		"0"
 	"setting.r_createmodeldecals"		"0"
@@ -23,8 +23,8 @@ Videoconfig.txt:
 	"setting.dvs_enable"		"0"
 	"setting.dvs_gpuframetime_min"		"15000"
 	"setting.dvs_gpuframetime_max"		"16500"
-	"setting.defaultres"		"1680"
-	"setting.defaultresheight"		"1050"
+	"setting.defaultres"		"1920"
+	"setting.defaultresheight"		"1080"
 	"setting.fullscreen"		"1"
 	"setting.nowindowborder"		"0"
 	"setting.volumetric_lighting"		"0"
@@ -36,16 +36,11 @@ Videoconfig.txt:
 	"setting.csm_cascade_res"		"0"
 	"setting.fadeDistScale"		"1.000000"
 	"setting.dvs_supersample_enable"		"0"
-	"setting.gamma"		"1.000000"
+	"setting.gamma"		"1.159836"
 	"setting.configversion"		"7"
 }
 
-
-autoexec.cfg:
-mat_letterbox_aspect_goal 0
-mat_letterbox_aspect_threshold 0
-
 ORIGIN LAUNCH OPTIONS:
-+fps_max 240 +cl_showfps 4 -dev +exec autoexec
++fps_max 0 +cl_showfps 4 -dev
 
 I use Rivatuner to cap FPS at 240 FPS.
