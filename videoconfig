@@ -40,7 +40,4 @@ Videoconfig.txt:
 	"setting.configversion"		"7"
 }
 
-ORIGIN LAUNCH OPTIONS:
-+fps_max 240 -dev
-
 I use Rivatuner to cap FPS at 240 FPS.
